@@ -15,10 +15,6 @@
     "avg_sentiment": 0.07138565400843885,
     "top_words": [
       [
-        "the",
-        4363
-      ],
-      [
         "png",
         4177
       ],
@@ -35,20 +31,8 @@
         1733
       ],
       [
-        "and",
-        1710
-      ],
-      [
-        "for",
-        1410
-      ],
-      [
         "color",
         1343
-      ],
-      [
-        "this",
-        945
       ],
       [
         "image",
@@ -59,24 +43,12 @@
         722
       ],
       [
-        "that",
-        717
-      ],
-      [
         "canvas",
         705
       ],
       [
-        "you",
-        693
-      ],
-      [
         "data",
         680
-      ],
-      [
-        "with",
-        656
       ],
       [
         "div",
@@ -93,6 +65,34 @@
       [
         "html",
         532
+      ],
+      [
+        "grid",
+        532
+      ],
+      [
+        "document",
+        509
+      ],
+      [
+        "colortriplets",
+        492
+      ],
+      [
+        "swatch",
+        491
+      ],
+      [
+        "style",
+        473
+      ],
+      [
+        "container",
+        451
+      ],
+      [
+        "let",
+        431
       ]
     ],
     "samples_by_theme": {
@@ -116,6 +116,26 @@
           "word_count": 218
         }
       ],
+      "other": [
+        {
+          "role": "user",
+          "conversation_title": "Clone GitHub repo tutorial",
+          "timestamp": "2025-10-13 17:19:43.612550",
+          "text": "I should've added I have a folder on my desktop called RepositoriesEL I want it to go in",
+          "sentiment": 0.0,
+          "theme": "other",
+          "word_count": 18
+        },
+        {
+          "role": "user",
+          "conversation_title": "Clone GitHub repo tutorial",
+          "timestamp": "2025-10-13 17:19:43.612550",
+          "text": "okay great, i followed these steps, yes I see the npm: command not found how should I proceed ",
+          "sentiment": 0.65,
+          "theme": "other",
+          "word_count": 18
+        }
+      ],
       "ai-theory": [
         {
           "role": "user",
@@ -136,24 +156,24 @@
           "word_count": 642
         }
       ],
-      "other": [
+      "coding-support": [
         {
           "role": "user",
           "conversation_title": "Clone GitHub repo tutorial",
           "timestamp": "2025-10-13 17:19:43.612550",
-          "text": "I should've added I have a folder on my desktop called RepositoriesEL I want it to go in",
-          "sentiment": 0.0,
-          "theme": "other",
-          "word_count": 18
+          "text": "I need help following instructions to clone a repository to my local computer from github, this is for my interactive data viz class. Here's the instruction I'm on: \"2.On GitHub, navigate to your fork of the repository, clone it to your local computer, and install dependencies.\nTo do this, navigate to the folder where you want to save your files (I like to save mine in Documents/Repositories). (Hint: cd or 'change directory' will help you get there through terminal). Then use the git clone command and paste the git url from the big green \"code\" button: (image provided by teacher for button). Copy the link inside there and use it after the git clone command in the terminal details below:\n\n# from Terminal:\n\n# navigate to where you want to save your code\n$ cd PATH_TO_YOUR/FOLDER\n\n# clone your fork to your local computer\n$ git clone https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2025\n\n# `cd` (change directory) into this repository\n$ cd Interactive-Data-Vis-Fall2025\" can you please help me with where I should start, do I open terminal and use git clone?",
+          "sentiment": -0.119,
+          "theme": "coding-support",
+          "word_count": 176
         },
         {
           "role": "user",
           "conversation_title": "Clone GitHub repo tutorial",
           "timestamp": "2025-10-13 17:19:43.612550",
-          "text": "okay great, i followed these steps, yes I see the npm: command not found how should I proceed ",
-          "sentiment": 0.65,
-          "theme": "other",
-          "word_count": 18
+          "text": "so did I already do this last part? \"# from Terminal:\n\n# navigate to where you want to save your code\n$ cd PATH_TO_YOUR/FOLDER\n\n# clone your fork to your local computer\n$ git clone https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2025\n\n# `cd` (change directory) into this repository\n$ cd Interactive-Data-Vis-Fall2025\"",
+          "sentiment": 0.0,
+          "theme": "coding-support",
+          "word_count": 46
         }
       ],
       "pedagogy": [
@@ -195,26 +215,6 @@
           "theme": "identity-reflexivity",
           "word_count": 47
         }
-      ],
-      "coding-support": [
-        {
-          "role": "user",
-          "conversation_title": "Clone GitHub repo tutorial",
-          "timestamp": "2025-10-13 17:19:43.612550",
-          "text": "I need help following instructions to clone a repository to my local computer from github, this is for my interactive data viz class. Here's the instruction I'm on: \"2.On GitHub, navigate to your fork of the repository, clone it to your local computer, and install dependencies.\nTo do this, navigate to the folder where you want to save your files (I like to save mine in Documents/Repositories). (Hint: cd or 'change directory' will help you get there through terminal). Then use the git clone command and paste the git url from the big green \"code\" button: (image provided by teacher for button). Copy the link inside there and use it after the git clone command in the terminal details below:\n\n# from Terminal:\n\n# navigate to where you want to save your code\n$ cd PATH_TO_YOUR/FOLDER\n\n# clone your fork to your local computer\n$ git clone https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2025\n\n# `cd` (change directory) into this repository\n$ cd Interactive-Data-Vis-Fall2025\" can you please help me with where I should start, do I open terminal and use git clone?",
-          "sentiment": -0.119,
-          "theme": "coding-support",
-          "word_count": 176
-        },
-        {
-          "role": "user",
-          "conversation_title": "Clone GitHub repo tutorial",
-          "timestamp": "2025-10-13 17:19:43.612550",
-          "text": "so did I already do this last part? \"# from Terminal:\n\n# navigate to where you want to save your code\n$ cd PATH_TO_YOUR/FOLDER\n\n# clone your fork to your local computer\n$ git clone https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2025\n\n# `cd` (change directory) into this repository\n$ cd Interactive-Data-Vis-Fall2025\"",
-          "sentiment": 0.0,
-          "theme": "coding-support",
-          "word_count": 46
-        }
       ]
     }
   },
@@ -230,46 +230,6 @@
     "avg_sentiment": 0.11703105095541398,
     "top_words": [
       [
-        "the",
-        15100
-      ],
-      [
-        "and",
-        6941
-      ],
-      [
-        "you",
-        6477
-      ],
-      [
-        "for",
-        3927
-      ],
-      [
-        "your",
-        3860
-      ],
-      [
-        "that",
-        2892
-      ],
-      [
-        "this",
-        2772
-      ],
-      [
-        "with",
-        2323
-      ],
-      [
-        "can",
-        2093
-      ],
-      [
-        "like",
-        2068
-      ],
-      [
         "data",
         1835
       ],
@@ -282,32 +242,72 @@
         1512
       ],
       [
-        "are",
-        1426
-      ],
-      [
-        "from",
-        1316
-      ],
-      [
         "image",
         1251
-      ],
-      [
-        "not",
-        1200
       ],
       [
         "html",
         1191
       ],
       [
-        "how",
-        1182
-      ],
-      [
         "let",
         1107
+      ],
+      [
+        "canvas",
+        1087
+      ],
+      [
+        "png",
+        1051
+      ],
+      [
+        "here",
+        1015
+      ],
+      [
+        "model",
+        1001
+      ],
+      [
+        "code",
+        982
+      ],
+      [
+        "function",
+        843
+      ],
+      [
+        "her",
+        823
+      ],
+      [
+        "each",
+        794
+      ],
+      [
+        "more",
+        775
+      ],
+      [
+        "css",
+        774
+      ],
+      [
+        "file",
+        772
+      ],
+      [
+        "she",
+        764
+      ],
+      [
+        "add",
+        749
+      ],
+      [
+        "python",
+        725
       ]
     ],
     "samples_by_theme": {
@@ -371,6 +371,26 @@
           "word_count": 258
         }
       ],
+      "coding-support": [
+        {
+          "role": "assistant",
+          "conversation_title": "Clone GitHub repo tutorial",
+          "timestamp": "2025-10-13 17:19:43.612550",
+          "text": "Absolutely, Erin \u2014 you\u2019re right on track! Let\u2019s walk through this step-by-step so you can clone your class repository successfully.  \n\n---\n\n### \ud83e\udded Step 1: Open Terminal\nSince you\u2019re on **macOS Sonoma**, do this:\n- Open **Spotlight Search** (press `Command + Space`)\n- Type `Terminal` and hit **Enter**  \nYou should now see a command prompt like:\n```\nErin@YourMac ~ %\n```\n\n---\n\n### \ud83d\udcc2 Step 2: Navigate to the folder where you want your class files\nYour teacher suggests `Documents/Repositories`, so let\u2019s create and go there.\n\nIn Terminal, type:\n```bash\ncd ~/Documents\nmkdir Repositories\ncd Repositories\n```\n\nThis means:\n- `cd ~/Documents` \u2192 change directory to your Documents folder  \n- `mkdir Repositories` \u2192 make a new folder called Repositories  \n- `cd Repositories` \u2192 move into that new folder  \n\nYou can check you\u2019re in the right place with:\n```bash\npwd\n```\nYou should see something like:\n```\n/Users/Erin/Documents/Repositories\n```\n\n---\n\n### \ud83c\udf3f Step 3: Clone your **fork** of the repo\nNow go to **GitHub in your browser**:\n1. Open your fork of the class repository (it will look like `https://github.com/yourusername/Interactive-Data-Vis-Fall2025`).\n2. Click the **green \u201cCode\u201d** button.\n3. Copy the **HTTPS link** (it should look like this):  \n   `https://github.com/yourusername/Interactive-Data-Vis-Fall2025.git`\n\nThen in your Terminal, paste it after `git clone`:\n```bash\ngit clone https://github.com/yourusername/Interactive-Data-Vis-Fall2025.git\n```\n\nHit **Enter**, and Git will download the repository into your folder.\n\n---\n\n### \ud83d\uddc2 Step 4: Move into the project folder\nOnce it\u2019s done cloning, go inside the folder:\n```bash\ncd Interactive-Data-Vis-Fall2025\n```\n\nYou can check that you\u2019re inside by typing:\n```bash\nls\n```\nYou should see files like `README.md`, maybe a `package.json`, and other project files.\n\n---\n\n### \u2699\ufe0f Step 5: Install dependencies\nIf your teacher mentioned dependencies, it usually means the project uses **Node.js**.  \nTo check if Node is installed, run:\n```bash\nnode -v\n```\nIf it shows a version (like `v20.10.0`), you\u2019re good!  \nThen install dependencies:\n```bash\nnpm install\n```\nThis reads the project\u2019s `package.json` and downloads everything needed.\n\nIf you don\u2019t have Node installed, I can walk you through that next \u2014 it\u2019s a quick install.\n\n---\n\nWould you like to tell me the **GitHub link** to your forked repo, and I\u2019ll double-check the exact command for you?  \nOr would you like help checking whether Node.js is already installed before running `npm install`?",
+          "sentiment": 0.172,
+          "theme": "coding-support",
+          "word_count": 377
+        },
+        {
+          "role": "assistant",
+          "conversation_title": "Clone GitHub repo tutorial",
+          "timestamp": "2025-10-13 17:19:43.612550",
+          "text": "Perfect \u2014 thanks for clarifying, Erin! That makes things even simpler. You\u2019ll just need to tell Terminal to go into your **Desktop/RepositoriesEL** folder before cloning.  \n\nHere\u2019s exactly what to do \ud83d\udc47  \n\n---\n\n### \ud83e\udded Step 1: Open Terminal\nPress `Command + Space`, type **Terminal**, and press **Enter**.  \nYou\u2019ll see a prompt like:\n```\nErin@YourMac ~ %\n```\n\n---\n\n### \ud83d\udcc2 Step 2: Navigate to your Desktop folder\nType:\n```bash\ncd ~/Desktop/RepositoriesEL\n```\n\n\u2705 That command means:  \n- `~` = your user home directory (like `/Users/Erin`)  \n- `Desktop/RepositoriesEL` = the folder on your desktop where you want the project saved  \n\nYou can confirm you\u2019re in the right place with:\n```bash\npwd\n```\nIt should say something like:\n```\n/Users/Erin/Desktop/RepositoriesEL\n```\n\n---\n\n### \ud83c\udf3f Step 3: Clone your fork from GitHub\nNow go to your **forked** GitHub repository (the one under *your* username).  \nClick the **green \u201cCode\u201d** button \u2192 make sure \u201cHTTPS\u201d is selected \u2192 copy the link that looks like:\n\n```\nhttps://github.com/yourusername/Interactive-Data-Vis-Fall2025.git\n```\n\nThen paste it after `git clone` in your Terminal:\n```bash\ngit clone https://github.com/yourusername/Interactive-Data-Vis-Fall2025.git\n```\n\nPress **Enter** \u2014 you\u2019ll see it start downloading.  \nWhen it finishes, you\u2019ll have a new folder called `Interactive-Data-Vis-Fall2025` inside `RepositoriesEL`.\n\n---\n\n### \ud83d\uddc2 Step 4: Move into the cloned folder\n```bash\ncd Interactive-Data-Vis-Fall2025\n```\n\nCheck what\u2019s inside:\n```bash\nls\n```\n\nYou should see project files (like `README.md`, `package.json`, maybe some `src` folders, etc.).\n\n---\n\n### \u2699\ufe0f Step 5: Install dependencies\nIf the project uses Node.js, run:\n```bash\nnpm install\n```\n\nIf you get an error saying `npm: command not found`, that just means Node.js isn\u2019t installed yet \u2014 I can walk you through that setup in one minute.\n\n---\n\nWould you like to check if you already have Node installed before running `npm install`?  \n(You can test by typing `node -v` in Terminal.)",
+          "sentiment": 0.278,
+          "theme": "coding-support",
+          "word_count": 299
+        }
+      ],
       "pedagogy": [
         {
           "role": "assistant",
@@ -409,26 +429,6 @@
           "sentiment": 0.102,
           "theme": "identity-reflexivity",
           "word_count": 286
-        }
-      ],
-      "coding-support": [
-        {
-          "role": "assistant",
-          "conversation_title": "Clone GitHub repo tutorial",
-          "timestamp": "2025-10-13 17:19:43.612550",
-          "text": "Absolutely, Erin \u2014 you\u2019re right on track! Let\u2019s walk through this step-by-step so you can clone your class repository successfully.  \n\n---\n\n### \ud83e\udded Step 1: Open Terminal\nSince you\u2019re on **macOS Sonoma**, do this:\n- Open **Spotlight Search** (press `Command + Space`)\n- Type `Terminal` and hit **Enter**  \nYou should now see a command prompt like:\n```\nErin@YourMac ~ %\n```\n\n---\n\n### \ud83d\udcc2 Step 2: Navigate to the folder where you want your class files\nYour teacher suggests `Documents/Repositories`, so let\u2019s create and go there.\n\nIn Terminal, type:\n```bash\ncd ~/Documents\nmkdir Repositories\ncd Repositories\n```\n\nThis means:\n- `cd ~/Documents` \u2192 change directory to your Documents folder  \n- `mkdir Repositories` \u2192 make a new folder called Repositories  \n- `cd Repositories` \u2192 move into that new folder  \n\nYou can check you\u2019re in the right place with:\n```bash\npwd\n```\nYou should see something like:\n```\n/Users/Erin/Documents/Repositories\n```\n\n---\n\n### \ud83c\udf3f Step 3: Clone your **fork** of the repo\nNow go to **GitHub in your browser**:\n1. Open your fork of the class repository (it will look like `https://github.com/yourusername/Interactive-Data-Vis-Fall2025`).\n2. Click the **green \u201cCode\u201d** button.\n3. Copy the **HTTPS link** (it should look like this):  \n   `https://github.com/yourusername/Interactive-Data-Vis-Fall2025.git`\n\nThen in your Terminal, paste it after `git clone`:\n```bash\ngit clone https://github.com/yourusername/Interactive-Data-Vis-Fall2025.git\n```\n\nHit **Enter**, and Git will download the repository into your folder.\n\n---\n\n### \ud83d\uddc2 Step 4: Move into the project folder\nOnce it\u2019s done cloning, go inside the folder:\n```bash\ncd Interactive-Data-Vis-Fall2025\n```\n\nYou can check that you\u2019re inside by typing:\n```bash\nls\n```\nYou should see files like `README.md`, maybe a `package.json`, and other project files.\n\n---\n\n### \u2699\ufe0f Step 5: Install dependencies\nIf your teacher mentioned dependencies, it usually means the project uses **Node.js**.  \nTo check if Node is installed, run:\n```bash\nnode -v\n```\nIf it shows a version (like `v20.10.0`), you\u2019re good!  \nThen install dependencies:\n```bash\nnpm install\n```\nThis reads the project\u2019s `package.json` and downloads everything needed.\n\nIf you don\u2019t have Node installed, I can walk you through that next \u2014 it\u2019s a quick install.\n\n---\n\nWould you like to tell me the **GitHub link** to your forked repo, and I\u2019ll double-check the exact command for you?  \nOr would you like help checking whether Node.js is already installed before running `npm install`?",
-          "sentiment": 0.172,
-          "theme": "coding-support",
-          "word_count": 377
-        },
-        {
-          "role": "assistant",
-          "conversation_title": "Clone GitHub repo tutorial",
-          "timestamp": "2025-10-13 17:19:43.612550",
-          "text": "Perfect \u2014 thanks for clarifying, Erin! That makes things even simpler. You\u2019ll just need to tell Terminal to go into your **Desktop/RepositoriesEL** folder before cloning.  \n\nHere\u2019s exactly what to do \ud83d\udc47  \n\n---\n\n### \ud83e\udded Step 1: Open Terminal\nPress `Command + Space`, type **Terminal**, and press **Enter**.  \nYou\u2019ll see a prompt like:\n```\nErin@YourMac ~ %\n```\n\n---\n\n### \ud83d\udcc2 Step 2: Navigate to your Desktop folder\nType:\n```bash\ncd ~/Desktop/RepositoriesEL\n```\n\n\u2705 That command means:  \n- `~` = your user home directory (like `/Users/Erin`)  \n- `Desktop/RepositoriesEL` = the folder on your desktop where you want the project saved  \n\nYou can confirm you\u2019re in the right place with:\n```bash\npwd\n```\nIt should say something like:\n```\n/Users/Erin/Desktop/RepositoriesEL\n```\n\n---\n\n### \ud83c\udf3f Step 3: Clone your fork from GitHub\nNow go to your **forked** GitHub repository (the one under *your* username).  \nClick the **green \u201cCode\u201d** button \u2192 make sure \u201cHTTPS\u201d is selected \u2192 copy the link that looks like:\n\n```\nhttps://github.com/yourusername/Interactive-Data-Vis-Fall2025.git\n```\n\nThen paste it after `git clone` in your Terminal:\n```bash\ngit clone https://github.com/yourusername/Interactive-Data-Vis-Fall2025.git\n```\n\nPress **Enter** \u2014 you\u2019ll see it start downloading.  \nWhen it finishes, you\u2019ll have a new folder called `Interactive-Data-Vis-Fall2025` inside `RepositoriesEL`.\n\n---\n\n### \ud83d\uddc2 Step 4: Move into the cloned folder\n```bash\ncd Interactive-Data-Vis-Fall2025\n```\n\nCheck what\u2019s inside:\n```bash\nls\n```\n\nYou should see project files (like `README.md`, `package.json`, maybe some `src` folders, etc.).\n\n---\n\n### \u2699\ufe0f Step 5: Install dependencies\nIf the project uses Node.js, run:\n```bash\nnpm install\n```\n\nIf you get an error saying `npm: command not found`, that just means Node.js isn\u2019t installed yet \u2014 I can walk you through that setup in one minute.\n\n---\n\nWould you like to check if you already have Node installed before running `npm install`?  \n(You can test by typing `node -v` in Terminal.)",
-          "sentiment": 0.278,
-          "theme": "coding-support",
-          "word_count": 299
         }
       ]
     }

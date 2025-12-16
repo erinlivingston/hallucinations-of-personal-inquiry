@@ -58,9 +58,18 @@ def get_theme_counts(msgs):
     return dict(Counter(m["theme"] for m in msgs))
 
 def get_top_words(msgs, n=20):
+
+    stopwords = set([
+        "the", "and", "or", "but", "in", "on", "at", "to", "for", "of", "with", "by", "a", "an", "is", "are", "was", "were",
+        "i", "you", "it", "this", "that", "they", "have", "has", "had", "do", "does", "did", "will", "can", "could", "should",
+        "would", "there", "what", "how", "when", "which", "like", "just", "from", "as", "not", "be", "been", "we", "me", "my",
+        "your", "about", "say", "said", "make", "get", "go", "know", "see", "think", "want", "need", "use", "work", "try", "ask"
+    ])
+
     all_text = " ".join(m["text"].lower() for m in msgs)
     words = re.findall(r"\b[a-zA-Z]{3,}\b", all_text)
-    return Counter(words).most_common(n)
+    filtered_words = [w for w in words if w not in stopwords]
+    return Counter(filtered_words).most_common(n)
 
 output = {
     "metadata": {
