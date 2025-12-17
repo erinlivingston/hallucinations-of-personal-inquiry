@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Portrait of Inquiry</title>
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <main>
@@ -34,7 +34,7 @@
                             This static site shows the documentation and code structure. To run the interactive version:
                         </p>
                         <ol style="margin: 10px 0 0 20px; font-size: 0.95em;">
-                            <li>Clone the <a href="https://github.com/YOUR-USERNAME/hallucinations-of-personal-inquiry" style="color: #856404; font-weight: bold;">GitHub repository</a></li>
+                            <li>Clone the <a href="https://github.com/erinlivingston/hallucinations-of-personal-inquiry" style="color: #856404; font-weight: bold;">GitHub repository</a></li>
                             <li>Follow setup instructions in the README</li>
                             <li>Run locally at <code>http://127.0.0.1:5001</code></li>
                         </ol>
@@ -182,7 +182,7 @@
   </main>
 
   <!-- Load components in order -->
-  <script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
 
   <script>
     const artGrid = document.getElementById('art-grid');
@@ -235,7 +235,7 @@
     // Create grid images
     imageFiles.forEach(filename => {
       const img = document.createElement('img');
-      img.src = `/assets/atdrawings/${filename}`;
+      img.src = `./assets/atdrawings/${filename}`;
       img.alt = `Art therapy drawing from ${filename.replace('.jpeg', '')}`;
       img.loading = 'lazy';
       img.style.cssText = `
@@ -298,7 +298,7 @@
 
 <script>
     // Create decorative color frame around RAG interface
-    fetch('/assets/art_palettes.json')
+    fetch('./assets/art_palettes.json')
       .then(response => response.json())
       .then(palettes => {
         const ragSection = document.getElementById('ragmodel');
